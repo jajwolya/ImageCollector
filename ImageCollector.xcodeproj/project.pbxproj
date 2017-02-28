@@ -13,6 +13,8 @@
 		F36C713C1E64298C00234189 /* ImageCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F36C713A1E64298C00234189 /* ImageCollector.xcdatamodeld */; };
 		F36C713E1E64298C00234189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36C713D1E64298C00234189 /* Assets.xcassets */; };
 		F36C71411E64298C00234189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36C713F1E64298C00234189 /* LaunchScreen.storyboard */; };
+		F36C714B1E6438B600234189 /* Wanderer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F36C714A1E6438B600234189 /* Wanderer.jpg */; };
+		F36C714D1E643DA800234189 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C714C1E643DA800234189 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F36C713D1E64298C00234189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36C71401E64298C00234189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F36C71421E64298C00234189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36C714A1E6438B600234189 /* Wanderer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wanderer.jpg; sourceTree = "<group>"; };
+		F36C714C1E643DA800234189 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				F36C71331E64298C00234189 /* AppDelegate.swift */,
 				F36C71351E64298C00234189 /* ViewController.swift */,
+				F36C714C1E643DA800234189 /* ImageViewController.swift */,
 				F36C71371E64298C00234189 /* Main.storyboard */,
+				F36C714A1E6438B600234189 /* Wanderer.jpg */,
 				F36C713D1E64298C00234189 /* Assets.xcassets */,
 				F36C713F1E64298C00234189 /* LaunchScreen.storyboard */,
 				F36C71421E64298C00234189 /* Info.plist */,
@@ -129,6 +135,7 @@
 				F36C71411E64298C00234189 /* LaunchScreen.storyboard in Resources */,
 				F36C713E1E64298C00234189 /* Assets.xcassets in Resources */,
 				F36C71391E64298C00234189 /* Main.storyboard in Resources */,
+				F36C714B1E6438B600234189 /* Wanderer.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			files = (
 				F36C713C1E64298C00234189 /* ImageCollector.xcdatamodeld in Sources */,
 				F36C71361E64298C00234189 /* ViewController.swift in Sources */,
+				F36C714D1E643DA800234189 /* ImageViewController.swift in Sources */,
 				F36C71341E64298C00234189 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
